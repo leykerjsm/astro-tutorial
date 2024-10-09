@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "About Me";
 ---
 
 <html lang="en">
@@ -8,7 +8,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <body>
@@ -16,18 +16,17 @@
       <a href="/about">About</a>
       <a href="/blog">blog</a>
 
-      <h1>Sobre mi</h1>
-      <h2>... ¡y mi nuevo sitio Astro!</h2>
+      <h1>{pageTitle}</h1>
+      <h2>... and my new Astro site!</h2>
 
       <p>
-        Estoy trabajando en el tutorial introductorio de Astro. Esta es la
-        segunda página de mi sitio web, ¡y es la primera que he construido yo
-        mismo!
+        I am working through Astro's introductory tutorial. This is the second
+        page on my website, and it's the first one I built myself!
       </p>
 
       <p>
-        Este sitio se irá actualizando a medida que vaya completando más partes
-        del tutorial, ¡así que no dejes de visitarlo para ver cómo va mi viaje!
+        This site will update as I complete more of the tutorial, so keep
+        checking back and see how my journey is going!
       </p>
     </body>
   </body>
